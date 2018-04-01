@@ -1,0 +1,20 @@
+
+/*=============================
+  Card
+=============================*/
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  border: 1px solid #a7a7a7;
+  border-radius: 2px;
+}
+.card .card-content {
+  margin: 0;
+  padding: 10px;
+}
+.card .card-image {
+  display: block;
+  height: auto;
+  width: 100%;
+}

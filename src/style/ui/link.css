@@ -1,0 +1,12 @@
+
+/*=============================
+  Link
+=============================*/
+a {
+  color: #0062ff;
+  transition: all 0.2s ease;
+}
+a:hover {
+  cursor: pointer;
+  color: #111;
+}
