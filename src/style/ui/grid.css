@@ -3,8 +3,9 @@
   Grid
 =============================*/
 .container {
-  width: 80%;
+  width: 100%;
   max-width: 960px;
+  min-width: 320px;
   margin: 0 auto;
 }
 .row {
@@ -65,14 +66,14 @@
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  .row .col,
+/*  .row .col,
   .row [class^='col-'],
   .row [class*=" col-"] {
     flex-grow: 0;
     flex-basis: 100%;
     margin-bottom: 10px;
     padding: 0;
-  }
+  }*/
   .row .col:last-child,
   .row [class^='col-']:last-child,
   .row [class*=" col-"]:last-child {
